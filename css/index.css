@@ -1,0 +1,51 @@
+body{
+    background-color:#fff ;
+    color: black;
+    font-family: Calibri;
+}
+
+nav{
+    background-color: #603813;
+    text-align:center;
+    width: auto;
+    height: 50px;
+    padding: 10px;
+}
+
+a{
+    color: whitesmoke;
+    font-family: Verdana;
+    font-size: 20px;
+    padding: 20px;
+   text-align: center;
+}
+
+a:hover{
+    background-color:#5FC3E4;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.logos{
+    width: auto;
+    height: auto;
+    margin-left: 1000px;
+}
+
+.shortabout{
+    text-align: left;
+    font-family: Haettenschweiler ;
+    font-size: 30px;
+    width: 700px;
+    margin-left: 200px;
+}
+
+
+.pie{
+background-color: #603813;
+color:whitesmoke;
+width: auto;
+height: 95px;
+text-align: left;
+margin-top: auto;
+}
