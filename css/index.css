@@ -1,16 +1,16 @@
+*{ margin:0;
+    box-sizing: border-box;
+
+}
+
+
 body{
     background-color:#fff ;
     color: black;
-    font-family: Calibri;
+    font-style: bold;
+    font-family: sans-serif;
 }
 
-nav{
-    background-color: #603813;
-    text-align:center;
-    width: auto;
-    height: 50px;
-    padding: 10px;
-}
 
 .subt{
     color: whitesmoke;
