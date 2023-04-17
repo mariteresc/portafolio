@@ -80,3 +80,29 @@ h1{
 span{
   color:aqua;
 }
+
+.download-cv{
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-box-shadow:1px 3px 11px -5px rgba(102,231,200,0.69);
+    -moz-box-shadow:1px 3px 11px -5px rgba(102,231,200,0.69) ;
+    box-shadow: 1px 3px 11px -5px rgba(102,231, 200, .69);
+  }
+  
+.download-cv:hover{
+    background-color: #FFF;
+    box-shadow: none;
+  
+}
+
+.main img{
+    width: 350px;
+    border: 7px solid aqua;
+    height: 520px;
+    z-index: 1;
+  
+}
