@@ -58,6 +58,12 @@ body {
   transition: ease-in .4s;
 }
 
+.toggle-menu,
+.info-content_subtitle,
+.info-content .sotial-network{
+  display:none ;
+}
+
 .main{
   margin: 0 auto;
   width: 80vw;
@@ -68,7 +74,7 @@ body {
 }
 
 h1{
-  font-size: 3em;
+  font-size: clamp(4vw,1.5em, 3em);
 }
 
 .main p{
@@ -343,6 +349,77 @@ span{
   
   .sotial-network i{
     font-size: 1.5em;
+  }
+
+  @media screen and (max-width: 800px){
+
+    .menu{
+      flex-direction: column;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      background-color: #2b3058;
+      z-index: 1;
+      transform: translateX(-110%);
+      transition: all .5s ease-in-out;
+    }
+
+    .menu li{
+      margin: 2em;
+    }
+
+    .toggle-menu{
+      display: block;
+    }
+
+    .fa-bars{
+      font-size: 1.5em;
+      margin-top: -.2em;
+    }
+
+    .toggle-menu .fa-close{
+      font-size: 1.7em;
+      display: none;
+    }
+
+    .main{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .main img{
+      width: min(70%, 350px);
+      height: auto;
+    }
+
+    .info-content{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .info-content .sotial-network,
+    .info-content_subtitle{
+      display:block;
+    }
+
+    .info-content .sotial-network{
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .info-content_p{
+      display: none;
+    }
+    
+    .download-cv{
+      display: none;
+
+    }
+    
   }
   
   
